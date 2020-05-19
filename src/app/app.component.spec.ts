@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'cancellable-http-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cancellable-http-demo');
+    expect(app.name).toEqual(':)');
   });
 
   it('should render title', () => {
