@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import { DataService } from './data.service';
+import { DataService } from '../../services/data.service';
 import { FormGroup, FormControl } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, filter, map, switchMap, debounce } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'cancellable-http-demo',
+  templateUrl: './cancellable-http-demo.component.html',
+  styleUrls: ['./cancellable-http-demo.component.scss']
 })
-export class AppComponent {
+export class CancellableHttpComponent {
   public name: string;
 
   //form setup

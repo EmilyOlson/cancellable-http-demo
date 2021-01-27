@@ -18,7 +18,9 @@
     "@angular/forms": "~9.1.7",
     "@angular/platform-browser": "~9.1.7",
     "@angular/platform-browser-dynamic": "~9.1.7",
-    "@angular/router": "~9.1.7",
+    "@uirouter/angular": "^7.0.0",
+    "@uirouter/core": "^6.0.6",
+    "@uirouter/rx": "^0.6.5",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

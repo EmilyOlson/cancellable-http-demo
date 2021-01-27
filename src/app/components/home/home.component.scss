@@ -1,0 +1,17 @@
+.test-container {
+    &--list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &--item {
+        box-sizing: border-box;
+        margin: 5px;
+        width: 50%;
+        flex-shrink: 0;
+    }
+    &--content{
+        background-color: blue;
+        padding: 10px;
+    }
+}
